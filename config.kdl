@@ -1,0 +1,25 @@
+// Theme section
+
+theme "dracula"
+
+// Zaoblené rohy
+
+ui {
+    pane_frames {
+        rounded_corners true
+    }
+}
+
+// Zkryje název relace
+
+ui {
+    pane_frames {
+        hide_session_name true
+    }
+}
+
+// Uzamkne nechtěné zavírání zellij zkratkou Ctrl + q
+keybinds {
+    unbind "Ctrl q" // unbind in all modes
+    }
+
