@@ -1,0 +1,7 @@
+
+alias zhx='zellij --layout $HOME/.config/zellij/layouts/helix.kdl'
+alias znv='zellij --layout $HOME/.config/zellij/layouts/nvim.kdl'
+alias z='zellij --layout $HOME/.config/zellij/layouts/layout_file.kdl'
+alias zj='zellij --layout $HOME/.config/zellij/layouts/zjstatus.kdl'
+
+# echo 'eval "$(zellij setup --generate-auto-start bash)"' >> ~/.bashrc
